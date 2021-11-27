@@ -118,23 +118,18 @@ cloneJson=(obj)=> JSON.parse(JSON.stringify(obj));
  
     //algorithm
     if ((this.state.answersCount[max] - this.state.answersCount[sMax]) < this.state.answersCount[max] / 10 && (this.state.answersCount[sMax] - this.state.answersCount[min]) < this.state.answersCount[max] / 10 && (this.state.answersCount[max] - min) < this.state.answersCount[max]/10){
-      console.log('abc');
-      return 'Vata-Pita-Kapha Prakruti';
+      return 'Vata-Pita-Kapha Prakriti';
     }
-    else if ((this.state.answersCount[max] - this.state.answersCount[sMax]) > this.state.answersCount[max]/2){
-      console.log(`max${max}`);
-      
+    else if ((this.state.answersCount[max] - this.state.answersCount[sMax]) > this.state.answersCount[max]/2){      
         return this.getPrakrutiType(max);
    }
     else if ((this.state.answersCount[max] - this.state.answersCount[sMax]) < this.state.answersCount[max]/2){
       console.log(this.state.answersCount[sMax] / 10);
           if((this.state.answersCount[sMax] - this.state.answersCount[min]) < this.state.answersCount[sMax]/10){
-            console.log('abc');
-            return 'Vata-Pita-Kapha Prakruti'
+            return 'Vata-Pita-Kapha Prakriti'
           }
           else{
-            console.log(`max-smax  ${max} - ${sMax}`)
-            return `${this.getPrakrutiType(max)}-${this.getPrakrutiType(sMax)}`
+            return `${this.getPrakrutiType(max)}-${this.getPrakrutiType(sMax)} Prakriti`
           }
     }
   }

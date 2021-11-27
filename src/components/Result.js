@@ -13,15 +13,15 @@ function Result(props) {
       transitionAppear
       transitionAppearTimeout={500}
     >
-      <div>
+      <div style={{ fontSize:20 }}>
         You prefer <strong>{props.quizResult}</strong>!
-
+{/* 
         your Selection <ul>
           <li>A :{props.quizSelection.a}</li>
           <li>b :{props.quizSelection.b}</li>
           <li>C: {props.quizSelection.c}</li>
 
-        </ul>
+        </ul> */}
       </div>
       <button className="btn btn-primary margin-top-20" onClick={props.restartQuiz}>Restart</button>
     </CSSTransitionGroup>
