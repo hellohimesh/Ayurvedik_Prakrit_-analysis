@@ -1,4 +1,4 @@
-# Patient Survey Tool
+# Ayurvedi Prakruti Analysis Tool
 [View demo](http://mitchgavan.github.io/react-multi-choice-quiz/)
 
 
