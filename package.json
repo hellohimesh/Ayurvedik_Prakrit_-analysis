@@ -2,7 +2,7 @@
   "name": "patient-survey",
   "version": "2.0.0",
   "private": false,
-  "homepage": "./",
+  "homepage": "https://prakruti-analysis.himesh.me/",
   "dependencies": {
     "joi": "^17.4.2",
     "prop-types": "^15.6.2",

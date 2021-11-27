@@ -1,5 +1,5 @@
 # Ayurvedi Prakruti Analysis Tool
-[View demo](http://mitchgavan.github.io/react-multi-choice-quiz/)
+[View demo](https://prakruti-analysis.himesh.me/)
 
 
 
